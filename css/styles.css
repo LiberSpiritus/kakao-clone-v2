@@ -3,6 +3,8 @@
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
 
 body{
     background-color:white;
@@ -14,4 +16,9 @@ body{
 
 a{color:inherit; /*부모 요소로 부터 색깔 가져옴.*/}
 
-*{box-sizing:border-box;}  /*이걸 추가 해야 nav 아이콘 이슈가 해결 됨*/
+*{box-sizing:border-box;
+/*이걸 추가 해야 nav 아이콘 이슈가 해결 됨*/    
+text-decoration: none;
+    }  
+    
+
